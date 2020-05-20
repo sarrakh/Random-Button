@@ -1,0 +1,55 @@
+.rand {
+  font-family: Helvetica, sans-serif;
+  word-wrap: break;
+  width: 100px;
+  height: 100px;
+  background: steelblue;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+
+put{
+        background: #3498db;
+        color:#fff;
+        width: 70px;
+        border-radius: 5px;
+        line-height: 1.5em;
+        border: none
+      }
+
+*:focus {
+  outline: none;
+}
+
+
+body {
+  overflow: hidden;
+  height: 600px;
+  width:1200px;
+   
+ 
+}
+
+.new_pos {
+  position:fixed;
+  left: 0;
+  margin-bottom: 50px;
+  cursor: pointer;
+  
+   width: 300px;
+ text-align: center;
+}
+
+#divChrono, #formChrono  {
+	
+   width: 300px;
+      	border: 1px solid rgba(0,0,0,0.5);
+      	padding:5px 0;
+      	text-align: center;
+      	font-size: 1.5em;
+      	font-family: digital;
+      	margin-bottom: 10px;
+}
+
